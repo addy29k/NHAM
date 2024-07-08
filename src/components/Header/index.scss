@@ -1,0 +1,43 @@
+.header {
+  background: white;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+
+    img {
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .title {
+      margin-left: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  nav {
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #f8f9fa;
+      }
+    }
+  }
+
+  .user-profile {
+    font-size: 0.875rem;
+  }
+}
